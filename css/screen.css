@@ -45,13 +45,14 @@ li{
         max-width:350px;
         vertical-align:middle; 
     }
+    #nav-info{
+        display:table;
+    }
     nav{
-        width:100%;
-        order:1;
+        display:table-header-group;
     }
     .icon{
-        width:100%;
-        order:2;
+        display:table-footer-group;
     }
     .icon, nav ul{
         position:relative;
@@ -87,7 +88,7 @@ li{
         display:none;
     }
     .arti-with-pic{
-        margin:20px 0;
+        margin:20px auto;
     }
 }
 @media screen and (min-device-width:480px) and (max-device-width: 768px){
